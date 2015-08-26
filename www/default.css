@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'DejaVuSans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/DejaVuSans.eot');
+  src: local('DejaVu Sans'), local('DejaVuSans')
+       url('fonts/DejaVuSans.eot?#iefix') format('embedded-opentype'),
+       url('fonts/DejaVuSans.woff') format('woff'),
+       url('fonts/DejaVuSans.ttf')  format('truetype'),
+       url('fonts/DejaVuSans.svg#DejaVuSans') format('svg');
+}
+
+@font-face {
+  font-family: 'DejaVuSansMono';
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/DejaVuSansMono.eot');
+  src: local('DejaVu Sans Mono'), local('DejaVuSansMono')
+       url('fonts/DejaVuSansMono.eot?#iefix') format('embedded-opentype'),
+       url('fonts/DejaVuSansMono.woff') format('woff'),
+       url('fonts/DejaVuSansMono.ttf')  format('truetype'),
+       url('fonts/DejaVuSansMono.svg#DejaVuSansMono') format('svg');
+}
+
+body {
+  background-color: #F0F0EE;
+  color: #000000;
+  font-family: 'DejaVuSans', sans;
+}
+
+.middle{
+  width:90%;
+  max-width:60em;
+  margin:auto;
+  padding:3px 15px 3px 15px;
+  background-color:#B4CDDB;
+}
+
+h1 {
+  font-family: 'DejaVuSansMono', monospace, mono;
+  text-align:center;
+}
+
+h2 {
+  font-family: 'DejaVuSansMono', monospace, mono;
+  margin-bottom:5px;
+  margin-top:1em;
+  margin-left:0px;
+  font-size:1.4em;
+  background-color: #2D546C;
+  padding:3px 7px 3px 7px;
+}
+
+h3 {
+  margin-bottom:5px;
+  margin-top:1em;
+  margin-left:0px;
+}
+
+a {
+  color:#004466;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.code {
+  font-family: 'DejaVuSansMono', monospace, mono;
+  white-space:nowrap;
+  background: #8899AA;
+  
+}
+
+.latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.latex, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}

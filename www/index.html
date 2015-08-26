@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <title>Sudoku Solver using Factor Graphs</title>
+    <link rel="stylesheet" href="default.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <h1>Sudoku Solver using Factor Graphs</h1>
+    <div class="middle">
+      <p>
+        This project is a simple sudoku solver demonstrating the use of Factor Graphs and the Sum Product Algorithm.
+      </p>
+      <p>
+	    It was developped in Python by Romain Labolle as part of an internship at <a href="http://www.cttc.cat/">CTTC</a> labs in Barcelona.
+      </p>
+      <p>
+        You can find more informations about Factor Graphs and the Sum Product Algorithm used in this project in my <a href="report.pdf">internship report</a>
+      </p>
+      
+      <h2>Source Code</h2>
+      <p>
+        The source code of this project and everything related to it can be found on <a href="https://github.com/ravomavain/Sudoku">github</a>.
+      </p>
+      <p>
+        It requires <a href="https://www.python.org/">Python 3</a> and <a href="http://www.numpy.org/">Numpy</a> for the sudoku solver and
+        <a href="http://www.gevent.org/">Gevent</a> for the telnet server.
+      </p>
+      <p>
+        The repository also includes the <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> sources of the report
+        which contains a helper function to easily generate nice Factor Graphs.
+      </p>
+      
+      <h2>Telnet Demo</h2>
+      
+      <p>
+        This server is also running a live demo of the solver via telnet on port 23. To access it, simply run the command <span class="code">telnet sudoku.cat</span>.
+      </p>
+      <p>
+        The source code of this server, based on <a href="https://github.com/ianepperson/telnetsrvlib">telnetsrvlib</a>, is also included in the source code repository.
+      </p>
+    </div>
+  </body>
+</html>

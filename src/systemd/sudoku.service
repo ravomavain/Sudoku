@@ -1,0 +1,8 @@
+[Unit]
+Description=Sudoku Solver Telnet Server
+
+[Service]
+ExecStart=/usr/local/lib/sudoku/telnet.py 2323
+User=sudoku
+
+PrivateTmp=yes

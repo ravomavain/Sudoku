@@ -1,0 +1,9 @@
+[Unit]
+Description=Sudoku Solver Telnet Server
+
+[Socket]
+ListenStream=23
+BindIPv6Only=both
+
+[Install]
+WantedBy=default.target
